@@ -1,0 +1,28 @@
+.btn {
+  padding: 0, 1rem;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background-color: #50cbe1;
+  cursor: pointer;
+  width: 20vmax;
+  height: 5vmax;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10vw;
+  margin-top: 3vw;
+}
+.container {
+  border-bottom: 2px solid gray;
+}
+.content {
+  display: none;
+  color: green;
+}
+.content.master_btn {
+  display: block;
+}
